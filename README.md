@@ -4,19 +4,29 @@
 
 ## Quickstart
 
-Install required dependencies. 
+Install required dependencies
 ```
 npm install
 ```
 
-Run development server, complete with DevTools and related configuration.
+Run development server
 ```
 npm run dev
 ```
 
-You're now ready to get working! *(enter command or visit via browser directly)*
+Run prod
+```
+npm run prod
+```
+
+Browser
 ```
 open http://localhost:3000/
+```
+
+Deploy prod
+```
+npm run build
 ```
 
 ## Technologies
