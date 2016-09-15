@@ -9,8 +9,8 @@ export class App extends Component {
   render() {
     const { counter, actions } = this.props;
     return (
-      <div className="main-app-container">
-        <div className="main-app-nav">React Redux Starter</div>
+      <div className="mainContainer container">
+        <h1>React Redux Starter</h1>
         <Counter counter={counter} actions={actions} />
       </div>
     );
