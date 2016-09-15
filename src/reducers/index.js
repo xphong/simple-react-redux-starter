@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux';
 
-import counter from './counter';
+import countries from './countries';
 
 const rootReducer = combineReducers({
-  counter,
+  countries,
 });
 
 export default rootReducer;

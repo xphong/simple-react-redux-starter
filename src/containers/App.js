@@ -2,35 +2,41 @@ import React, { Component, PropTypes } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
-import * as CounterActions from '../actions/CounterActions';
-import Counter from '../components/Counter';
+import Spinner from '../components/Spinner';
+import * as CountriesActions from '../actions/CountriesActions';
+import Countries from '../components/Countries';
 
 export class App extends Component {
+  componentDidMount() {
+    this.props.actions.fetchCountries('https://restcountries.eu/rest/v1/all');
+  }
+
   render() {
-    const { counter, actions } = this.props;
+    const { countries, actions } = this.props;
+    
     return (
       <div className="mainContainer container">
         <h1>React Redux Starter</h1>
-        <Counter counter={counter} actions={actions} />
+        {countries.isLoading ? <Spinner /> : <Countries countries={countries} actions={actions} />}
       </div>
     );
   }
 }
 
 App.propTypes = {
-  counter: PropTypes.number.isRequired,
+  countries: PropTypes.object.isRequired,
   actions: PropTypes.object.isRequired
 };
 
 function mapStateToProps(state) {
   return {
-    counter: state.counter
+    countries: state.countries
   };
 }
 
 function mapDispatchToProps(dispatch) {
   return {
-    actions: bindActionCreators(CounterActions, dispatch)
+    actions: bindActionCreators(CountriesActions, dispatch)
   };
 }
 
