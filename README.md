@@ -1,5 +1,6 @@
 # React Redux Starter
 
+* A small React Redux starter that includes an API call to retrieve a list of countries and displays in a table
 * Based off [Simple Redux Boilerplate](https://github.com/tsaiDavid/simple-redux-boilerplate)
 
 ## Quickstart
@@ -37,3 +38,7 @@ npm run build
 * Webpack
 * React Dev Tools
 * Axios
+
+### Toggle React Dev Tools:
+<kbd>CTRL</kbd> + <kbd>H</kbd>
+
