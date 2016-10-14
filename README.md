@@ -1,6 +1,7 @@
 # React Redux Starter
 
 * A small React Redux starter that includes an API call to retrieve a list of countries and displays in a table
+* Demo: [http://phonghuynh.ca/reactstarter/](http://phonghuynh.ca/reactstarter/)
 * Based off [Simple Redux Boilerplate](https://github.com/tsaiDavid/simple-redux-boilerplate)
 
 ## Quickstart
