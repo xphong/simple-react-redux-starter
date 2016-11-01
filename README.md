@@ -5,6 +5,11 @@
 
 ## Quickstart
 
+Clone this repository:
+```
+git clone https://github.com/xphong/simple-react-redux-starter.git
+```
+
 Install required dependencies:
 ```
 npm install
