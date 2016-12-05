@@ -1,17 +1,25 @@
 const path = require('path');
 const express = require('express');
 const webpack = require('webpack');
-const config = require('./webpack.config.prod');
 
 const app = express();
-const compiler = webpack(config);
 
-app.use(require('webpack-dev-middleware')(compiler, {
+let webpackConfig;
+
+if (app.get('env') === 'development') {
+  webpackConfig = require('./webpack.config.dev');
+} else if (app.get('env') === 'production') {
+  webpackConfig = require('./webpack.config.prod');
+}
+
+let webpackCompiler = webpack(webpackConfig);
+
+app.use(require('webpack-dev-middleware')(webpackCompiler, {
   noInfo: true,
-  publicPath: config.output.publicPath
+  publicPath: webpackConfig.output.publicPath
 }));
 
-app.use(require('webpack-hot-middleware')(compiler));
+app.use(require('webpack-hot-middleware')(webpackCompiler));
 
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
