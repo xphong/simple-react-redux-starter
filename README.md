@@ -33,7 +33,6 @@ yarn
 ## File Structure
 ```
 ├── README.md
-├── devServer.js
 ├── index.html
 ├── package.json
 ├── server.js
