@@ -69,14 +69,14 @@ yarn
 
 ## Technologies
 
-* ES6
-* React
-* Redux
+* ES6/ES2015
+* React w/ Redux, React Dev Tools
 * Webpack
-* React Dev Tools
+* Bootstrap
 * Axios
 
-### Toggle React Dev Tools:
+## FAQ
+* Toggle React Dev Tools:
 <kbd>CTRL</kbd> + <kbd>H</kbd>
 
 #### Based on [Simple Redux Boilerplate](https://github.com/tsaiDavid/simple-redux-boilerplate)
