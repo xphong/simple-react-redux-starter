@@ -10,30 +10,24 @@ Clone this repository:
 git clone https://github.com/xphong/simple-react-redux-starter.git
 ```
 
-Install required dependencies:
+### Dependencies
+
+* Install required dependencies:
 ```
-npm install
+npm install yarn -g
+yarn
 ```
 
-Run development server:
-```
-npm run dev
-```
+### Scripts
 
-Run prod:
-```
-npm run prod
-```
+* Run development server (port 3000): `npm run dev`
 
-Browser:
-```
-open http://localhost:3000/
-```
+* Run production server: `npm run prod`
 
-Deploy prod:
-```
-npm run build
-```
+* Deploy production build: `npm run build`
+
+* Browser: `open http://localhost:3000/`
+
 
 ## File Structure
 ```
