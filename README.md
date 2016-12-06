@@ -69,14 +69,20 @@ yarn
 
 ## Technologies
 
-* ES6/ES2015
-* React w/ Redux, React Dev Tools
-* Webpack
-* Bootstrap
-* Axios
+* [Babel ES2015/ES6](https://github.com/babel/babel)
+* [React](https://github.com/facebook/react)
+  * [Redux](https://github.com/reactjs/react-redux)
+  * [Redux Thunk Middleware](https://github.com/gaearon/redux-thunk)
+  * [Redux Dev Tools](https://github.com/gaearon/redux-devtools)
+  * [Redux Logger](https://github.com/evgenyrodionov/redux-logger)
+* [Bootstrap w/ Sass](http://getbootstrap.com/)
+* [Yarn](https://yarnpkg.com/)
+* [Webpack](https://webpack.github.io/)
+* [Axios](https://github.com/mzabriskie/axios)
+
 
 ## FAQ
 * Toggle React Dev Tools:
 <kbd>CTRL</kbd> + <kbd>H</kbd>
 
-#### Based on [Simple Redux Boilerplate](https://github.com/tsaiDavid/simple-redux-boilerplate)
+* Based on [Simple Redux Boilerplate](https://github.com/tsaiDavid/simple-redux-boilerplate)
