@@ -1,7 +1,7 @@
-# React Redux Starter - [http://phonghuynh.ca/reactstarter/](http://phonghuynh.ca/reactstarter/)
+# React Redux Starter - [https://xphong.github.io/simple-react-redux-starter/](https://xphong.github.io/simple-react-redux-starter/)
 
 * A small React Redux starter that includes an API call to retrieve a list of countries and displays in a table
-* Demo: [http://phonghuynh.ca/reactstarter/](http://phonghuynh.ca/reactstarter/)
+* Demo: [https://xphong.github.io/simple-react-redux-starter/](https://xphong.github.io/simple-react-redux-starter/)
 * Example project using this starter: [https://github.com/xphong/marvel-app](https://github.com/xphong/marvel-app)
 
 ## Quickstart
