@@ -1,8 +1,15 @@
 # React Redux Starter - [https://xphong.github.io/simple-react-redux-starter/](https://xphong.github.io/simple-react-redux-starter/)
 
-* A small React Redux starter that includes an API call to retrieve a list of countries and displays in a table
+* A small React Redux starter that includes an API call to retrieve a list of countries and displays in a table. Includes a navigation bar, and a loading spinner.
 * Demo: [https://xphong.github.io/simple-react-redux-starter/](https://xphong.github.io/simple-react-redux-starter/)
 * Example project using this starter: [https://github.com/xphong/marvel-app](https://github.com/xphong/marvel-app)
+
+## Documentation
+* ECMAScript 2015 is an ECMAScript standard that was ratified in June 2015. Babel is a compiler that transforms your ES2015 code into JavaScript so that the browser can read it. [http://babeljs.io/](http://babeljs.io/)
+* React is a a JavaScript **library** for building user interfaces. [https://facebook.github.io/react/](https://facebook.github.io/react/)
+* Redux is a predictable state container for JavaScript apps. [http://redux.js.org/](http://redux.js.org/)
+* Webpack is a module bundler which compacts your JavaScript files into separate modules allowing module loading throughout your application. [http://webpack.github.io/docs/what-is-webpack.html](http://webpack.github.io/docs/what-is-webpack.html)
+* Yarn is a dependency manager built on top of npm allowing for consistent and reliable versioning using a lockfile. [https://yarnpkg.com/](https://yarnpkg.com/) 
 
 ## Quickstart
 
