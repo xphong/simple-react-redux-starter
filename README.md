@@ -1,4 +1,4 @@
-# React Redux Starter - [https://xphong.github.io/simple-react-redux-starter/](https://xphong.github.io/simple-react-redux-starter/)
+# React Redux Starter - [Demo](https://xphong.github.io/simple-react-redux-starter/)
 
 * A small React Redux starter that includes an API call to retrieve a list of countries and displays in a table. Includes a navigation bar, and a loading spinner.
 * Demo: [https://xphong.github.io/simple-react-redux-starter/](https://xphong.github.io/simple-react-redux-starter/)
