@@ -16,7 +16,7 @@ export default class Countries extends Component {
 
     return (
       <div className='tableContainer'>
-        <h3>Countries List</h3>
+        <h1>Countries</h1>
         <table className='table table-bordered table-striped'>
           <thead>
             <tr>

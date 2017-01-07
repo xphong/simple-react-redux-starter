@@ -1,22 +1,27 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
-$main-bg-color: #f1f2f0;
-$accent-black: #35342f;
-
 body {
-  background-color: $main-bg-color;
-  color: $accent-black;
+  background-color: white;
+  color: black;
   display: flex;
   justify-content: center;
   font-family: 'Lato', sans-serif;
 }
 
+h1 {
+  margin: 30px 0;
+}
+
 .mainContainer {
-  margin: 20px auto;
+  margin: 60px auto 20px auto;
 }
 
 .tableContainer {
   margin: 20px 0;
+}
+
+.navbar-default .navbar-nav > li > .route--active {
+  color: black;
 }
 
 /* Absolute Center CSS Spinner */
