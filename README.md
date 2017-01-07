@@ -4,7 +4,7 @@
 * Demo: [https://xphong.github.io/simple-react-redux-starter/](https://xphong.github.io/simple-react-redux-starter/)
 * Example project using this starter: [https://github.com/xphong/marvel-app](https://github.com/xphong/marvel-app)
 
-## Documentation
+## Documentation - [Guide](http://www.phonghuynh.ca/simple-react-redux-starter-guide-documentation/)
 * ECMAScript 2015 is an ECMAScript standard that was ratified in June 2015. Babel is a compiler that transforms your ES2015 code into JavaScript so that the browser can read it. [http://babeljs.io/](http://babeljs.io/)
 * React is a a JavaScript **library** for building user interfaces. [https://facebook.github.io/react/](https://facebook.github.io/react/)
 * Redux is a predictable state container for JavaScript apps. [http://redux.js.org/](http://redux.js.org/)
