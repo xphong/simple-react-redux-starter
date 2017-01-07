@@ -42,6 +42,7 @@ yarn
 * [Babel ES2015/ES6](https://github.com/babel/babel)
 * [React](https://github.com/facebook/react)
   * [Redux](https://github.com/reactjs/react-redux)
+  * [React Router Redux](https://github.com/reactjs/react-router-redux)
   * [Redux Thunk Middleware](https://github.com/gaearon/redux-thunk)
   * [Redux Dev Tools](https://github.com/gaearon/redux-devtools)
   * [Redux Logger](https://github.com/evgenyrodionov/redux-logger)
@@ -66,11 +67,14 @@ yarn
 |   ├── components
 |   |   ├── Countries.js
 |   |   ├── Country.js
+|   |   ├── Navbar.js
 |   |   └── Spinner.js
 |   ├── constants
 |   |   └── ActionTypes.js
 |   ├── containers
+|   |   ├── About.js
 |   |   ├── App.js
+|   |   ├── Countries.js
 |   |   └── DevTools.js
 |   ├── reducers
 |   |   ├── countries.js
@@ -82,6 +86,7 @@ yarn
 |   ├── styles
 |   |   └── main.scss
 |   ├── index.js
+|   ├── routes.js
 ├── .babelrc
 ├── .eslintignore
 ├── .eslintrc
