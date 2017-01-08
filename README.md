@@ -3,6 +3,7 @@
 * A small React Redux starter that includes an API call to retrieve a list of countries and displays in a table. Includes a navigation bar, and a loading spinner.
 * Demo: [https://xphong.github.io/simple-react-redux-starter/](https://xphong.github.io/simple-react-redux-starter/)
 * Example project using this starter: [https://github.com/xphong/marvel-app](https://github.com/xphong/marvel-app)
+* Guide/Documentation: http://www.phonghuynh.ca/simple-react-redux-starter-guide-documentation/
 
 ## Documentation - [Guide](http://www.phonghuynh.ca/simple-react-redux-starter-guide-documentation/)
 * ECMAScript 2015 is an ECMAScript standard that was ratified in June 2015. Babel is a compiler that transforms your ES2015 code into JavaScript so that the browser can read it. [http://babeljs.io/](http://babeljs.io/)
